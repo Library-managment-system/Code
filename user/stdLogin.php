@@ -1,7 +1,7 @@
 <?php
-  include "../conn.php";
+  include "conn.php";
   include "nav.php";
-  session_start();
+  
   
   
 ?>
@@ -11,7 +11,7 @@
 <head>
 
   <title>Student Login</title>
-  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -23,7 +23,7 @@
     <br> <br><br>
     <div class="box1">
         <h1 style="text-align: center; font-size: 35px;font-family: Lucida Console;">Library Management System</h1><br>
-        <h1 style="text-align: center; font-size: 25px;">User Login Form</h1><br>
+        <h1 style="text-align: center; font-size: 25px;">User Login Form..</h1><br>
       <form name="login" action="" method="post">
         <br><br>
         <div class="login">
@@ -35,7 +35,7 @@
       </form>
       <p style="color: white; padding-left: 15px;">
         <br><br>
-        <a style="color:white;" href="update password.php">Forgot password?</a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+        <a style="color:white;" href="">Forgot password?</a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
         New to the Library?<a style="color: white;" href="reg.php">Sign Up</a>
       </p>
     </div>
