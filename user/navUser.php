@@ -22,8 +22,8 @@ session_start();
 <header>
 <?php
 
-	if($_SESSION['login_user']) 
-	{
+  if($_SESSION['login_user']) 
+  {
 ?>
 
 <nav>
